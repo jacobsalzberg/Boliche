@@ -407,7 +407,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e57ea3989dc7f4e50bd55982de841177, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -865,7 +865,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 2500
-  field of view: 9
+  field of view: 54
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -889,13 +889,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1407461603}
-  m_LocalRotation: {x: 0.014506558, y: 0.0021275715, z: -0.00002944698, w: 0.9998926}
-  m_LocalPosition: {x: 0, y: 25, z: -23.817226}
+  m_LocalRotation: {x: 0.164991, y: 0.025817923, z: -0.0043204376, w: 0.98594767}
+  m_LocalPosition: {x: 1.9, y: 33, z: -41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 1.6620001, y: 0.24400002, z: 0}
+  m_LocalEulerAnglesHint: {x: 19, y: 3, z: 0}
 --- !u!1001 &1696921622
 Prefab:
   m_ObjectHideFlags: 0
