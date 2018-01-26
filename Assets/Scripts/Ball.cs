@@ -16,7 +16,7 @@ public class Ball : MonoBehaviour {
         rigidBody = GetComponent<Rigidbody>();
         rigidBody.useGravity = false;
         
-        Launch(launchVelocity);
+        //Launch(launchVelocity);
 
     }
 
