@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour {
 
-    public Vector3 launchVelocity;
 
     private Rigidbody rigidBody;
     private AudioSource audioSource;
+    public bool inPlay = false;
 
 
 	// Use this for initialization
@@ -22,9 +22,12 @@ public class Ball : MonoBehaviour {
 
     public void Launch(Vector3 velocity)
     {
+        inPlay = true;
         rigidBody.useGravity = true;
+        rigidBody.velocity = velocity;
+       
+
         audioSource = GetComponent<AudioSource>();
-        rigidBody.velocity = launchVelocity;
         audioSource.Play();
     }
 
