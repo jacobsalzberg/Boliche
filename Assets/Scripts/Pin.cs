@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pin : MonoBehaviour {
 
-    public float strandingTreshold = 3f; // remember: anything done in the inspector OVERWRITES
+    public float strandingTreshold = 10f; // remember: anything done in the inspector OVERWRITES
     public float distToRaise = 40f;
 
     private Rigidbody rigidBody;
