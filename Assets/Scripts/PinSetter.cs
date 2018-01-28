@@ -4,11 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PinSetter : MonoBehaviour {
-
-
     public int lastStandingCount = -1;
     public Text standingDisplay;
-    public float distanceToRaise = 40f;
     public GameObject pinSet;
 
     private Ball ball;
@@ -29,7 +26,7 @@ public class PinSetter : MonoBehaviour {
         //if ball has entered box
         if (ballEnteredBox)
         {
-            CheckStanding();
+            UpdateStandingCountandSettle();
         }
     }
 
@@ -59,7 +56,7 @@ public class PinSetter : MonoBehaviour {
         newPins.transform.position += new Vector3(0, 20, 0);
     }
 
-    void CheckStanding()
+    private void UpdateStandingCountandSettle()
     {
         //Update the last standing count
         //call pinshavesettled 
@@ -102,22 +99,7 @@ public class PinSetter : MonoBehaviour {
         return standing;
     }
 
-    private void OnTriggerExit(Collider collider)
-    {
-        // GameObject thingLeft = collider.gameObject;
-        //if (thingLeft.GetComponentInParent<Pin>()) //do this because the collider is in the parent
-        // {
-        //     print (thingLeft + "pin left");
-        //     Destroy(thingLeft.transform.parent.gameObject);
-        //  }
-        Pin pin = collider.GetComponentInParent<Pin>();
-        if (pin)
-        {
-            Destroy(pin.gameObject);
-        }
-    }
-
-    private void OnTriggerEnter(Collider collider)
+      private void OnTriggerEnter(Collider collider)
     {
         GameObject thingHit = collider.gameObject; //assign gameobject to a variable called thinghit
 

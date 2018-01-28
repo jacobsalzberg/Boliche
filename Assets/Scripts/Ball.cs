@@ -5,15 +5,17 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
 
+    public bool inPlay = false;
+
+
     private Vector3 ballStartPos;
     private Rigidbody rigidBody;
     private AudioSource audioSource;
-    public bool inPlay = false;
-    
 
 
-	// Use this for initialization
-	void Start ()
+
+    // Use this for initialization
+    void Start ()
     {
         rigidBody = GetComponent<Rigidbody>();
         rigidBody.useGravity = false;
@@ -41,6 +43,7 @@ public class Ball : MonoBehaviour {
         transform.position = ballStartPos;
         rigidBody.velocity = Vector3.zero;
         rigidBody.angularVelocity = Vector3.zero;
+        rigidBody.useGravity = false;
 
     }
     // Update is called once per frame
