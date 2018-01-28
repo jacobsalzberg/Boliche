@@ -35,11 +35,25 @@ public class PinSetter : MonoBehaviour {
     public void RaisePins()
     {
         //raise standing pins only by 
+        Debug.Log("Raising pins");
+        foreach (Pin pin in GameObject.FindObjectsOfType<Pin>())
+        {
+            pin.RaiseIfStanding();
+        }
+
     }
 
     public void LowerPins()
     {
+        foreach (Pin pin in GameObject.FindObjectsOfType<Pin>())
+        {
+            pin.Lower();
+        }
+    }
 
+    public void RenewPins()
+    {
+        Debug.Log("Renewing pins");
     }
 
     void CheckStanding()
