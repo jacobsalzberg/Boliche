@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pin : MonoBehaviour {
 
-    public float strandingTreshold = 3f; // remember: anything done in the inspector OVERWRITES
+    public float strandingTreshold = 25f; // remember: anything done in the inspector OVERWRITES
 
 
    
@@ -32,7 +32,5 @@ public class Pin : MonoBehaviour {
         {
             return false;
         }
-
-        return true;
     }
 }

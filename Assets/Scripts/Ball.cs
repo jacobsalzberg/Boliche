@@ -5,9 +5,11 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
 
+    private Vector3 ballStartPos;
     private Rigidbody rigidBody;
     private AudioSource audioSource;
     public bool inPlay = false;
+    
 
 
 	// Use this for initialization
@@ -15,7 +17,9 @@ public class Ball : MonoBehaviour {
     {
         rigidBody = GetComponent<Rigidbody>();
         rigidBody.useGravity = false;
-        
+
+        ballStartPos = transform.position;
+
         //Launch(launchVelocity);
 
     }
@@ -30,7 +34,15 @@ public class Ball : MonoBehaviour {
         audioSource = GetComponent<AudioSource>();
         audioSource.Play();
     }
+    public void Reset()
+    {
+        Debug.Log("resetting ball");
+        inPlay = false;
+        transform.position = ballStartPos;
+        rigidBody.velocity = Vector3.zero;
+        rigidBody.angularVelocity = Vector3.zero;
 
+    }
     // Update is called once per frame
     void Update () {
 		
