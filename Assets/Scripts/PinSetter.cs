@@ -12,10 +12,14 @@ public class PinSetter : MonoBehaviour {
 
     private float lastChangeTime;
     private bool ballEnteredBox = false;
+    private int lastSettledCount = 10; //10 pins at the beggining
+    private ActionMaster actionMaster = new ActionMaster();
+    private Animator animator;
 
 	// Use this for initialization
 	void Start () {
         ball = GameObject.FindObjectOfType<Ball>();
+        animator = GetComponent<Animator>();
 	}
 
 	
@@ -33,7 +37,7 @@ public class PinSetter : MonoBehaviour {
     public void RaisePins()
     {
         //raise standing pins only by 
-        Debug.Log("Raising pins");
+        //Debug.Log("Raising pins");
         foreach (Pin pin in GameObject.FindObjectsOfType<Pin>())
         {
             pin.RaiseIfStanding();
@@ -51,7 +55,7 @@ public class PinSetter : MonoBehaviour {
 
     public void RenewPins()
     {
-        Debug.Log("Renewing pins");
+       // Debug.Log("Renewing pins");
         GameObject newPins = Instantiate(pinSet);
         newPins.transform.position += new Vector3(0, 20, 0);
     }
@@ -78,6 +82,27 @@ public class PinSetter : MonoBehaviour {
 
     void PinsHaveSettled()
     {
+        int pinFall = lastSettledCount - CountStanding();
+        lastSettledCount = CountStanding();
+        //print(lastSettledCount);
+
+        ActionMaster.Action action = actionMaster.Bowl(pinFall);
+
+        if (action == ActionMaster.Action.Tidy)
+        {
+            animator.SetTrigger("tidyTrigger");
+        } else if (action == ActionMaster.Action.EndTurn)
+        {
+            animator.SetTrigger("resetTrigger");
+        }
+        else if (action == ActionMaster.Action.Reset)
+        {
+            animator.SetTrigger("resetTrigger");
+        }
+        else if (action == ActionMaster.Action.EndGame)
+        {
+            throw new UnityException("dont know how to handle endgame yet");
+        }
         ball.Reset();
         lastStandingCount = -1; //indicades pins have settled, and ball not back in box
         ballEnteredBox = false;
