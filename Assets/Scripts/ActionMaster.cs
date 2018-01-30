@@ -1,20 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic; //access to lists!
+using System.Collections.Generic;
 
 public class ActionMaster
 {
     public enum Action { Tidy, Reset, EndTurn, EndGame };
 
-    public int[] bowls = new int[21];
-    public int bowl = 1;
+    private int[] bowls = new int[21];
+    private int bowl = 1;
 
-    public static Action NextAction (List<int> pinFalls)
+    public static Action NextAction(List<int> pinfFalls)
     {
-        ActionMaster am = new ActionMaster(); //create actionmastery temporarially, to be able to use it
-        Action currentAction = new Action(); //create new action temporarially
-        
-        foreach (int pinFall in pinFalls)
+        ActionMaster am = new ActionMaster();
+        Action currentAction = new Action();
+
+        foreach (int pinFall in pinfFalls)
         {
             currentAction = am.Bowl(pinFall);
         }
@@ -22,8 +22,8 @@ public class ActionMaster
         return currentAction;
     }
 
-    public Action Bowl(int pins) // TODO make private
-    {
+    private Action Bowl(int pins)
+    { // TODO make private
         if (pins < 0 || pins > 10) { throw new UnityException("Invalid pins"); }
 
         bowls[bowl - 1] = pins;
