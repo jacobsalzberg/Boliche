@@ -1,11 +1,11 @@
-# SpaceShips
-[C#] Retro-styled spaceship game
+# Boliche
+[C#] Simple Bowling game
 
 
 
 ## Refences
 
-[Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders)
+[Space Invaders](https://en.wikipedia.org/wiki/Bowling)
 
 
 ## Sample Screenshots
