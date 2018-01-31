@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 584283}
   - component: {fileID: 584282}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &584283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 36926274}
   - component: {fileID: 36926273}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &36926274
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 63597485}
   - component: {fileID: 63597484}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -427,7 +427,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &63597485
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -445,7 +445,7 @@ GameObject:
   - component: {fileID: 65962715}
   - component: {fileID: 65962714}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -501,7 +501,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &65962715
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -541,7 +541,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -86, y: 0.12915039}
+  m_AnchoredPosition: {x: -60.399994, y: 0.12915039}
   m_SizeDelta: {x: -610, y: 0.25830078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &115164859
@@ -622,7 +622,7 @@ GameObject:
   - component: {fileID: 167705744}
   - component: {fileID: 167705743}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -678,7 +678,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &167705744
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -870,80 +870,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d2682c31a7499544caada9fc3ec1bb7b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &279614556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 279614557}
-  - component: {fileID: 279614559}
-  - component: {fileID: 279614558}
-  m_Layer: 5
-  m_Name: Bowl A
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &279614557
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 279614556}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 768360365}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: 11.258301}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &279614558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 279614556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 6
---- !u!222 &279614559
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 279614556}
 --- !u!1 &308028003
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,7 +881,7 @@ GameObject:
   - component: {fileID: 308028006}
   - component: {fileID: 308028005}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1011,7 +937,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &308028006
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1135,7 +1061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -136, y: 1}
+  m_AnchoredPosition: {x: -110.4, y: 1}
   m_SizeDelta: {x: -610, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &439084349
@@ -1299,7 +1225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -285.8, y: 0}
+  m_AnchoredPosition: {x: -260.19998, y: 0}
   m_SizeDelta: {x: -610, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &499983491
@@ -1375,80 +1301,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90.55, y: 0, z: 0}
---- !u!1 &505458843
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 505458844}
-  - component: {fileID: 505458846}
-  - component: {fileID: 505458845}
-  m_Layer: 5
-  m_Name: Bowl B
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &505458844
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 505458843}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 768360365}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: 11.258301}
-  m_SizeDelta: {x: 20, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &505458845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 505458843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 6
---- !u!222 &505458846
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 505458843}
 --- !u!1 &520482533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,7 +1312,7 @@ GameObject:
   - component: {fileID: 520482536}
   - component: {fileID: 520482535}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1516,7 +1368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &520482536
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1534,7 +1386,7 @@ GameObject:
   - component: {fileID: 530281209}
   - component: {fileID: 530281208}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1590,7 +1442,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &530281209
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1608,7 +1460,7 @@ GameObject:
   - component: {fileID: 608934206}
   - component: {fileID: 608934205}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1664,7 +1516,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &608934206
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1682,7 +1534,7 @@ GameObject:
   - component: {fileID: 659215734}
   - component: {fileID: 659215733}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1738,7 +1590,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &659215734
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1778,7 +1630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 114, y: 2.6291504}
+  m_AnchoredPosition: {x: 139.6, y: 2.6291504}
   m_SizeDelta: {x: -610, y: 5.258301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &675543032
@@ -1918,7 +1770,7 @@ GameObject:
   - component: {fileID: 731880028}
   - component: {fileID: 731880027}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1974,49 +1826,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &731880028
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 731880025}
---- !u!1 &768360364
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 768360365}
-  m_Layer: 5
-  m_Name: Frame (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &768360365
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 768360364}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 279614557}
-  - {fileID: 505458844}
-  - {fileID: 1516791267}
-  m_Father: {fileID: 1437088248}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 160.3, y: 3}
-  m_SizeDelta: {x: -610, y: 4.258301}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &791532275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,7 +1844,7 @@ GameObject:
   - component: {fileID: 791532278}
   - component: {fileID: 791532277}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2084,7 +1900,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &791532278
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2164,7 +1980,7 @@ GameObject:
   - component: {fileID: 859808787}
   - component: {fileID: 859808786}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2220,7 +2036,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &859808787
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2238,7 +2054,7 @@ GameObject:
   - component: {fileID: 873597061}
   - component: {fileID: 873597060}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2294,7 +2110,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &873597061
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2312,7 +2128,7 @@ GameObject:
   - component: {fileID: 926303958}
   - component: {fileID: 926303957}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2368,7 +2184,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &926303958
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2386,7 +2202,7 @@ GameObject:
   - component: {fileID: 970233308}
   - component: {fileID: 970233307}
   m_Layer: 5
-  m_Name: Bowl C
+  m_Name: Bowl C9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2442,7 +2258,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &970233308
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2560,7 +2376,7 @@ GameObject:
   - component: {fileID: 1108697631}
   - component: {fileID: 1108697630}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2616,7 +2432,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1108697631
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2674,7 +2490,7 @@ GameObject:
   - component: {fileID: 1146482172}
   - component: {fileID: 1146482171}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2730,7 +2546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1146482172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2770,7 +2586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -186, y: -0.5}
+  m_AnchoredPosition: {x: -160.4, y: -0.5}
   m_SizeDelta: {x: -610, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1192188551
@@ -2782,7 +2598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1192188552}
   m_Layer: 5
-  m_Name: Frame (10)
+  m_Name: Frame (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2803,11 +2619,11 @@ RectTransform:
   - {fileID: 970233306}
   - {fileID: 1609301940}
   m_Father: {fileID: 1437088248}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 219.57, y: 3.065}
+  m_AnchoredPosition: {x: 194, y: 3.065}
   m_SizeDelta: {x: -591.46, y: 6.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1192833968
@@ -2821,7 +2637,7 @@ GameObject:
   - component: {fileID: 1192833971}
   - component: {fileID: 1192833970}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2877,7 +2693,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1192833971
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3016,7 +2832,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -36, y: 1.6291504}
+  m_AnchoredPosition: {x: -10.399994, y: 1.6291504}
   m_SizeDelta: {x: -610, y: 3.2583008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1351069292
@@ -3186,6 +3002,7 @@ GameObject:
   - component: {fileID: 1437088248}
   - component: {fileID: 1437088250}
   - component: {fileID: 1437088249}
+  - component: {fileID: 1437088251}
   m_Layer: 5
   m_Name: Scores
   m_TagString: Untagged
@@ -3212,7 +3029,6 @@ RectTransform:
   - {fileID: 2059568781}
   - {fileID: 1699976276}
   - {fileID: 664590514}
-  - {fileID: 768360365}
   - {fileID: 1192188552}
   m_Father: {fileID: 675543036}
   m_RootOrder: 2
@@ -3255,6 +3071,50 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1437088247}
+--- !u!114 &1437088251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437088247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa2c40a030017546b192f35693f0fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rollTexts:
+  - {fileID: 36926273}
+  - {fileID: 1483648429}
+  - {fileID: 1926568541}
+  - {fileID: 1146482171}
+  - {fileID: 1480446323}
+  - {fileID: 520482535}
+  - {fileID: 1948674857}
+  - {fileID: 1469248852}
+  - {fileID: 1519334166}
+  - {fileID: 731880027}
+  - {fileID: 659215733}
+  - {fileID: 1997371141}
+  - {fileID: 63597484}
+  - {fileID: 2066790328}
+  - {fileID: 608934205}
+  - {fileID: 1108697630}
+  - {fileID: 1809951552}
+  - {fileID: 791532277}
+  - {fileID: 1192833970}
+  - {fileID: 530281208}
+  - {fileID: 970233307}
+  frameTexts:
+  - {fileID: 859808786}
+  - {fileID: 1956075338}
+  - {fileID: 1602070591}
+  - {fileID: 584282}
+  - {fileID: 926303957}
+  - {fileID: 167705743}
+  - {fileID: 308028005}
+  - {fileID: 65962714}
+  - {fileID: 873597060}
+  - {fileID: 1609301941}
 --- !u!1 &1469248850
 GameObject:
   m_ObjectHideFlags: 0
@@ -3266,7 +3126,7 @@ GameObject:
   - component: {fileID: 1469248853}
   - component: {fileID: 1469248852}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3322,7 +3182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1469248853
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3340,7 +3200,7 @@ GameObject:
   - component: {fileID: 1480446324}
   - component: {fileID: 1480446323}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3396,7 +3256,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1480446324
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3414,7 +3274,7 @@ GameObject:
   - component: {fileID: 1483648430}
   - component: {fileID: 1483648429}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3470,87 +3330,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1483648430
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1483648427}
---- !u!1 &1516791266
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1516791267}
-  - component: {fileID: 1516791269}
-  - component: {fileID: 1516791268}
-  m_Layer: 5
-  m_Name: Score
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1516791267
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1516791266}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 768360365}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -8.741699}
-  m_SizeDelta: {x: 40, y: 20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1516791268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1516791266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: '  123'
---- !u!222 &1516791269
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1516791266}
 --- !u!1 &1519334164
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,7 +3348,7 @@ GameObject:
   - component: {fileID: 1519334167}
   - component: {fileID: 1519334166}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3618,7 +3404,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1519334167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3636,7 +3422,7 @@ GameObject:
   - component: {fileID: 1602070592}
   - component: {fileID: 1602070591}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3692,7 +3478,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &1602070592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3710,7 +3496,7 @@ GameObject:
   - component: {fileID: 1609301942}
   - component: {fileID: 1609301941}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3766,7 +3552,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &1609301942
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3876,7 +3662,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 64, y: 2.1291504}
+  m_AnchoredPosition: {x: 89.600006, y: 2.1291504}
   m_SizeDelta: {x: -610, y: 4.258301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1713725186
@@ -3942,7 +3728,7 @@ GameObject:
   - component: {fileID: 1809951553}
   - component: {fileID: 1809951552}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3998,7 +3784,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1809951553
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4016,7 +3802,7 @@ GameObject:
   - component: {fileID: 1926568542}
   - component: {fileID: 1926568541}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4072,7 +3858,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1926568542
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4300,7 +4086,7 @@ GameObject:
   - component: {fileID: 1948674858}
   - component: {fileID: 1948674857}
   m_Layer: 5
-  m_Name: Bowl A
+  m_Name: Bowl A3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4356,7 +4142,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1948674858
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4374,7 +4160,7 @@ GameObject:
   - component: {fileID: 1956075339}
   - component: {fileID: 1956075338}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Score1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4430,7 +4216,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  123'
+  m_Text: ' '
 --- !u!222 &1956075339
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4448,7 +4234,7 @@ GameObject:
   - component: {fileID: 1997371142}
   - component: {fileID: 1997371141}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4504,7 +4290,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &1997371142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4544,7 +4330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14, y: 2.1291504}
+  m_AnchoredPosition: {x: 39.600006, y: 2.1291504}
   m_SizeDelta: {x: -610, y: 4.258301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2066790326
@@ -4558,7 +4344,7 @@ GameObject:
   - component: {fileID: 2066790329}
   - component: {fileID: 2066790328}
   m_Layer: 5
-  m_Name: Bowl B
+  m_Name: Bowl B6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4614,7 +4400,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: ' '
 --- !u!222 &2066790329
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4654,6 +4440,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -236, y: 0}
+  m_AnchoredPosition: {x: -210.4, y: 0}
   m_SizeDelta: {x: -610, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

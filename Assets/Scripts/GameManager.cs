@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     {
         bowls.Add(pinFall);
 
-        ActionMaster.Action nextAction = ActionMaster.NextAction(bowls);
+        ActionMasterOld.Action nextAction = ActionMasterOld.NextAction(bowls);
         pinSetter.PerformAction(nextAction);
         ball.Reset();
     }
